@@ -3,7 +3,7 @@
 # thank me later when your git graph is as green as the python money u gonna earn
 
 
-#----# Exercise 1 #----#
+#----# Task 1 #----#
 
 # Integer
 print(1234)
@@ -20,7 +20,7 @@ print("Hello world!")
 # Boolean
 print(True)
 
-#----# Exercise 2 #----#
+#----# Task 2 #----#
 
 # Integer
 integer1 = 1234
@@ -40,3 +40,5 @@ print(str(string1) + " is type of " + str(type(string1)))
 # Boolean
 boolean1 = True
 print(str(boolean1) + " is type of " + str(type(boolean1)))
+
+#----# Task 3 #----#
