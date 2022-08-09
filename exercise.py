@@ -24,21 +24,39 @@ print(True)
 
 # Integer
 integer1 = 1234
-print(str(integer1) + " is type of " + str(type(integer1)))
+print(integer1, type(integer1), sep = " is a type of ")
+
 # Float
 float1 = 1.234
-print(str(float1) + " is type of " + str(type(float1)))
+print(float1, type(float1), sep = " is a type of ")
 
 # Complex
 complex1 = 1 + 1j
-print(str(complex1) + " is type of " + str(type(complex1)))
+print(complex1, type(complex1), sep = " is a type of ")
 
 # String
 string1 = "Hello world!"
-print(str(string1) + " is type of " + str(type(string1)))
+print(string1, type(string1), sep = " is a type of ")
 
 # Boolean
 boolean1 = True
-print(str(boolean1) + " is type of " + str(type(boolean1)))
+print(boolean1, type(boolean1), sep = " is a type of ")
 
 #----# Task 3 #----#
+
+print(isinstance(integer1, int))
+print(isinstance(integer1, float))
+print(isinstance(float1, float))
+print(isinstance(integer1, str))
+print(isinstance(string1, str))
+print(isinstance(boolean1, bool))
+
+
+#----# Task 4 #----#
+print(f"is {integer1} an instance of int?: {isinstance(integer1, int)}")
+print(f"is {integer1} an instance of float?: {isinstance(integer1, float)}")
+print(f"is {string1} an instance of int?: {isinstance(string1, int)}")
+print(f"is {string1} an instance of str?: {isinstance(string1, str)}")
+print(f"is {boolean1} an instance of bool?: {isinstance(string1, int)}")
+
+
