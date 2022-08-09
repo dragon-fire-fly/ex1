@@ -60,3 +60,14 @@ print(f"is {string1} an instance of str?: {isinstance(string1, str)}")
 print(f"is {boolean1} an instance of bool?: {isinstance(string1, int)}")
 
 
+# This is a comment
+# This is another comment
+print("Hello") # This is an inline comment
+
+'''
+This is a multiline comment 
+created using Docstring 
+annotation
+
+'''
+
